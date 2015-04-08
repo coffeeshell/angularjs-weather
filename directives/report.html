@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ convertToDate({ date: weatherDay.dt }) | date : dateFormat }}</h3>
+    </div>
+    <div class="panel-body">
+        <p>Morning temperature: {{ weatherDay.temp.morn }} &deg;C</p>
+        <p>Day temperature: {{ weatherDay.temp.day }} &deg;C</p>
+        <p>Evening temperature: {{ weatherDay.temp.eve }} &deg;C</p>
+        <p>Night temperature: {{ weatherDay.temp.night }} &deg;C</p>
+        <p>Maximum temperature: {{ weatherDay.temp.max }} &deg;C</p>
+        <p>Minimum temperature: {{ weatherDay.temp.min }} &deg;C</p>
+    </div>
+</div>
