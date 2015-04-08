@@ -1,0 +1,1 @@
+A simple forecast web application build with AngularJS
